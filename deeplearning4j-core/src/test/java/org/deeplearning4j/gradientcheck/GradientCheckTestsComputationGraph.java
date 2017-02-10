@@ -148,7 +148,7 @@ public class GradientCheckTestsComputationGraph {
     @Test
     public void testBasicIrisWithElementWiseNode(){
 
-        ElementWiseVertex.Op[] ops = new ElementWiseVertex.Op[]{ElementWiseVertex.Op.Add, ElementWiseVertex.Op.Subtract};
+        ElementWiseVertex.Op[] ops = new ElementWiseVertex.Op[]{ElementWiseVertex.Op.Add, ElementWiseVertex.Op.Subtract, ElementWiseVertex.Op.Product};
 
         for( ElementWiseVertex.Op op : ops ) {
 
